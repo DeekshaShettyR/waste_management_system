@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1730913363464,
+    "type": "Missed Pickup",
+    "location": "Street 1, Mangalore",
+    "priority": "High",
+    "timestamp": "2024-11-06T17:16:03.464Z"
+  },
+  {
+    "id": 1730913820146,
+    "type": "Missed Pickup",
+    "location": "Street 1, Mangalore",
+    "priority": "High",
+    "timestamp": "2024-11-06T17:23:40.146Z"
+  },
+  {
+    "id": 1730917774225,
+    "type": "not coming garbage collecting vehicles on time",
+    "location": "mangalore",
+    "priority": "3",
+    "timestamp": "2024-11-06T18:29:34.225Z"
+  },
+  {
+    "id": 1730917797255,
+    "type": "not coming garbage collecting vehicles on time",
+    "location": "BENGALORE",
+    "priority": "1",
+    "timestamp": "2024-11-06T18:29:57.255Z"
+  },
+  {
+    "id": 1730955724390,
+    "type": "WASTE IMPROPER MANAGEMENT",
+    "location": "mangalore",
+    "priority": "2",
+    "timestamp": "2024-11-07T05:02:04.390Z"
+  },
+  {
+    "id": 1730993936316,
+    "type": "not coming garbage collecting vehicles on time",
+    "location": "mangalore",
+    "priority": "2",
+    "timestamp": "2024-11-07T15:38:56.316Z"
+  },
+  {
+    "id": 1730993961161,
+    "type": "not coming garbage collecting vehicles on time",
+    "location": "mangalore",
+    "priority": "3",
+    "timestamp": "2024-11-07T15:39:21.161Z"
+  }
+]

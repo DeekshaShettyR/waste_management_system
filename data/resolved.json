@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1683142052635,
+    "type": "Missed Pickup",
+    "location": "Street 1, Mangalore",
+    "priority": "High",
+    "timestamp": "2024-11-06T10:20:35.635Z",
+    "resolvedAt": "2024-11-06T11:30:00.000Z"
+  },
+  {
+    "id": 1683142052635,
+    "type": "Missed Pickup",
+    "location": "Street 1, Mangalore",
+    "priority": "High",
+    "timestamp": "2024-11-06T10:20:35.635Z",
+    "resolvedAt": "2024-11-06T17:25:21.512Z"
+  },
+  {
+    "id": 1730914920598,
+    "type": "not coming garbage collecting vehicles on time",
+    "location": "mangalore",
+    "priority": 2,
+    "timestamp": "2024-11-06T17:42:00.598Z",
+    "resolvedAt": "2024-11-06T17:42:14.503Z"
+  },
+  {
+    "id": 1730914989942,
+    "type": "abc",
+    "location": "mangalore",
+    "priority": 1,
+    "timestamp": "2024-11-06T17:43:09.942Z",
+    "resolvedAt": "2024-11-06T17:43:20.746Z"
+  },
+  {
+    "id": 1730915836710,
+    "type": "WASTE IMPROPER MANAGEMENT",
+    "location": "KUDLA",
+    "priority": "1",
+    "timestamp": "2024-11-06T17:57:16.710Z",
+    "resolvedAt": "2024-11-06T17:57:25.218Z"
+  },
+  {
+    "id": 1730913709813,
+    "type": "Missed Pickup",
+    "location": "Street 1, Mangalore",
+    "priority": "High",
+    "timestamp": "2024-11-06T17:21:49.813Z",
+    "resolvedAt": "2024-11-06T17:57:30.694Z"
+  },
+  {
+    "id": 1683143052636,
+    "type": "Health Hazard",
+    "location": "Near School, Mangalore",
+    "priority": "Urgent",
+    "timestamp": "2024-11-06T10:45:52.636Z",
+    "resolvedAt": "2024-11-06T17:57:43.238Z"
+  },
+  {
+    "id": 1730955572206,
+    "type": "WASTE IMPROPER MANAGEMENT",
+    "location": "mangalore",
+    "priority": "2",
+    "timestamp": "2024-11-07T04:59:32.206Z",
+    "resolvedAt": "2024-11-07T04:59:43.560Z"
+  },
+  {
+    "id": 1730913243478,
+    "type": "Missed Pickup",
+    "location": "Street 1, Mangalore",
+    "priority": "High",
+    "timestamp": "2024-11-06T17:14:03.478Z",
+    "resolvedAt": "2024-11-07T05:02:25.620Z"
+  },
+  {
+    "id": 1730956033104,
+    "type": "WASTE IMPROPER MANAGEMENT",
+    "location": "padav",
+    "priority": "1",
+    "timestamp": "2024-11-07T05:07:13.104Z",
+    "resolvedAt": "2024-11-07T05:07:19.442Z"
+  },
+  {
+    "id": 1730993417591,
+    "type": "WASTE IMPROPER MANAGEMENT",
+    "location": "mangalore",
+    "priority": "1",
+    "timestamp": "2024-11-07T15:30:17.591Z",
+    "resolvedAt": "2024-11-07T15:30:26.149Z"
+  },
+  {
+    "id": 1731157983342,
+    "type": "WASTE IMPROPER MANAGEMENT",
+    "location": "asd",
+    "priority": "2",
+    "timestamp": "2024-11-09T13:13:03.342Z",
+    "resolvedAt": "2024-11-09T13:13:08.860Z"
+  }
+]
