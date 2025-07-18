@@ -1,70 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Waste Management System</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Waste Management System</title>
+  <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
-    <div class="container">
-        <h1>Waste Management and Complaint Handling</h1>
+  <div class="container">
+    <h1>Waste Management and Complaint Handling</h1>
 
-       
-        <div class="form-section">
-            <h2>Report a New Complaint</h2>
-            <form id="complaintForm">
-                <label for="type">Complaint Type</label>
-                <input type="text" id="type" name="type" required>
-                
-                <label for="location">Location</label>
-                <input type="text" id="location" name="location" required>
-
-                <label for="priority">Priority (1 - High, 3 - Low)</label>
-                <input type="number" id="priority" name="priority" required min="1" max="3">
-
-                <button type="submit">Submit Complaint</button>
-            </form>
-        </div>
-
-        <!-- Display Complaints -->
-        <div class="table-section">
-            <h2>Complaints</h2>
-            <table id="complaintsTable">
-                <thead>
-                    <tr>
-                        <th>ID</th>
-                        <th>Type</th>
-                        <th>Location</th>
-                        <th>Priority</th>
-                        <th>Action</th>
-                    </tr>
-                </thead>
-                <tbody>
-                  
-                </tbody>
-            </table>
-        </div>
-
-        
-        <div class="table-section">
-            <h2>Resolved Complaints</h2>
-            <table id="resolvedTable">
-                <thead>
-                    <tr>
-                        <th>ID</th>
-                        <th>Type</th>
-                        <th>Location</th>
-                        <th>Priority</th>
-                    </tr>
-                </thead>
-                <tbody>
-                   
-                </tbody>
-            </table>
-        </div>
+    <!-- 🔹 Tab Navigation -->
+    <div class="tabs">
+      <button onclick="showSection('form')">➕ New Complaint</button>
+      <button onclick="showSection('complaints')">📋 View Complaints</button>
+      <button onclick="showSection('resolved')">✅ View Resolved</button>
     </div>
 
-    <script src="app.js"></script>
+    <!-- 🔹 Complaint Form -->
+    <div id="formSection" class="section">
+      <h2>Report a New Complaint</h2>
+      <form id="complaintForm">
+        <label for="type">Complaint Type</label>
+        <input type="text" id="type" name="type" placeholder="e.g., Overflowing garbage" required/>
+
+        <label for="location">Location</label>
+        <input type="text" id="location" name="location" placeholder="e.g., Street 5, Block B" required/>
+
+        <label for="priority">Priority (1 - High, 3 - Low)</label>
+        <input type="number" id="priority" name="priority" placeholder="1 to 3" required min="1" max="3"/>
+
+        <button type="submit">Submit Complaint</button>
+      </form>
+    </div>
+
+    <!-- 🔹 Complaints Table -->
+    <div id="complaintsSection" class="section hidden">
+      <h2>Open Complaints</h2>
+      <table id="complaintsTable">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Type</th>
+            <th>Location</th>
+            <th>Priority</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <!-- 🔹 Resolved Complaints Table -->
+    <div id="resolvedSection" class="section hidden">
+      <h2>Resolved Complaints</h2>
+      <table id="resolvedTable">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Type</th>
+            <th>Location</th>
+            <th>Priority</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
 </body>
 </html>
